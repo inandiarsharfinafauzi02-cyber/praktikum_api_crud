@@ -74,9 +74,9 @@ penjelasan:
   
 - pada factory User.fromJson(Map<String, dynamic> json)  merupakna  Fungsi Parsing Kunci digunakan sebagai mengubah data mentahmen jadi objek yang aman.
   
-2.Setelah operasi CRUD (Create, Read, Update, Delete) berhasil dijalankan, tampilan data pada aplikasi akan diperbarui secara dinamis melalui StatefulWidget.
+2. Setelah operasi CRUD (Create, Read, Update, Delete) berhasil dijalankan, tampilan data pada aplikasi akan diperbarui secara dinamis melalui StatefulWidget.
 
-3.Dengan bantuan FutureBuilder, proses pengambilan dan penanganan data dapat dilakukan secara asynchronous, memungkinkan aplikasi tetap berjalan tanpa gangguan saat menunggu respons dari API.
+3. Dengan bantuan FutureBuilder, proses pengambilan dan penanganan data dapat dilakukan secara asynchronous, memungkinkan aplikasi tetap berjalan tanpa gangguan saat menunggu respons dari API.
 
 ## keimpulan dan saran
 Dari hasil praktikum “CRUD & Styling – Pengenalan Implementasi Dasar API Eksternal”, dapat disimpulkan bahwa mahasiswa telah memahami cara kerja API dan REST API serta mampu menerapkannya dalam aplikasi Flutter menggunakan package http. Praktikum ini juga melatih kemampuan mahasiswa dalam melakukan operasi CRUD, mengolah data JSON, menampilkan data ke antarmuka aplikasi dengan tampilan yang rapi, serta menambahkan validasi dan penanganan error. Untuk pengembangan berikutnya, disarankan agar aplikasi dibuat dengan struktur yang lebih terorganisir seperti menggunakan arsitektur Provider atau MVC, menambahkan elemen animasi dan tema yang lebih menarik, serta mencoba membuat dan menghubungkan API buatan sendiri guna memperdalam pemahaman tentang interaksi antara client dan server.
