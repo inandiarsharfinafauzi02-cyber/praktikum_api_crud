@@ -63,9 +63,13 @@ api_config.dart berfungsi sebagai pusat konfigurasi yang penting untuk keberhasi
 Bagian ini penting karena menjembatani format data JSON dari server ke objek Dart yang kuat (strongly-typed)
 <img width="1380" height="1266" alt="image" src="https://github.com/user-attachments/assets/d3515c8d-de05-4925-8f7a-55d74df62f02" />
 penjelasan:
+
 - pada user class digunakan untuk mendifinisikan struktur data agar setiap data pengguna memiliki data yang jelas
+  
 - pada factory User.fromJson(Map<String, dynamic> json)  merupakna  Fungsi Parsing Kunci digunakan sebagai mengubah data mentahmen jadi objek yang aman.
+  
 2.Setelah operasi CRUD (Create, Read, Update, Delete) berhasil dijalankan, tampilan data pada aplikasi akan diperbarui secara dinamis melalui StatefulWidget.
+
 3.Dengan bantuan FutureBuilder, proses pengambilan dan penanganan data dapat dilakukan secara asynchronous, memungkinkan aplikasi tetap berjalan tanpa gangguan saat menunggu respons dari API.
 
 ## keimpulan dan saran
