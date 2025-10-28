@@ -40,6 +40,7 @@ Menampilkan daftar pengguna (UserListPage - Awalnya hanya operasi Read).
 -Menambahkan method createUser, updateUser, dan deleteUser ke dalam file api_service.dart.
 -Menambahkan file api_config.dart yang berisi konfigurasi API, termasuk baseUrl dan apiKey, agar operasi CRUD bisa berjalan
 -Tampilan akhir halaman utama menampilkan daftar pengguna dengan tombol Edit dan Delete untuk setiap user, serta tombol Tambah untuk Create
+
 **Hasilnya**
 -hasil fungsi Create 
 
