@@ -29,17 +29,23 @@ KELAS : TRPL 2B
  - **user_model.dart** (Model Data)
  Digunakan untuk menyimpan struktur data user dari API. Fungsinya untuk mengubah   
  data JSON yang diambil dari API menjadi objek Dart agar mudah digunakan.
- -**api_service.dart** (Service API)
+
+ - **api_service.dart** (Service API)
   Berisi fungsi-fungsi penghubung ke API, seperti fetchUsers(), CreateUsers(), UpdateUsers(), dan DeleteUsers() untuk operasi CRUD
-** main.dart:**
+  
+- ** main.dart:**
 Menampilkan daftar pengguna (UserListPage - Awalnya hanya operasi Read).
+
 **Hasilnya**
 ![WhatsApp Image 2025-10-27 at 17 10 47_5bb3cd24](https://github.com/user-attachments/assets/c420ff4b-a64a-4a4b-8907-1a5e2f754b68)
 ## langkah 3
--Menambahkan halaman AddUserPage dan EditUserPage untuk operasi Create dan Update.
--Menambahkan method createUser, updateUser, dan deleteUser ke dalam file api_service.dart.
--Menambahkan file api_config.dart yang berisi konfigurasi API, termasuk baseUrl dan apiKey, agar operasi CRUD bisa berjalan
--Tampilan akhir halaman utama menampilkan daftar pengguna dengan tombol Edit dan Delete untuk setiap user, serta tombol Tambah untuk Create
+- Menambahkan halaman AddUserPage dan EditUserPage untuk operasi Create dan Update.
+
+- Menambahkan method createUser, updateUser, dan deleteUser ke dalam file api_service.dart.
+  
+- Menambahkan file api_config.dart yang berisi konfigurasi API, termasuk baseUrl dan apiKey, agar operasi CRUD bisa berjalan
+  
+- Tampilan akhir halaman utama menampilkan daftar pengguna dengan tombol Edit dan Delete untuk setiap user, serta tombol Tambah untuk Create
 
 **Hasilnya**
 -hasil fungsi Create 
