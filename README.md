@@ -42,12 +42,15 @@ Menampilkan daftar pengguna (UserListPage - Awalnya hanya operasi Read).
 -Tampilan akhir halaman utama menampilkan daftar pengguna dengan tombol Edit dan Delete untuk setiap user, serta tombol Tambah untuk Create
 **Hasilnya**
 -hasil fungsi Create 
+
 ![WhatsApp Image 2025-10-27 at 17 10 46_5ae5387b](https://github.com/user-attachments/assets/48c9c090-f90c-495b-84eb-76bbd0b06826)
 
 -hasil fungsi update
+
 ![WhatsApp Image 2025-10-27 at 17 10 46_bc5ad78a](https://github.com/user-attachments/assets/505e5484-81e2-4b7f-bb6a-803a6e5a2169)
 
 -Hasil fungsi delete
+
 ![WhatsApp Image 2025-10-27 at 17 10 46_fd7f17a2](https://github.com/user-attachments/assets/4f839fef-222c-4699-9843-77b30cf345cb).
 
 ## Langkah 4
